@@ -3,7 +3,7 @@ import google.generativeai as palm
 import replicate
 import os
 
-os.environ['REPLICATE_API_TOKEN'] = "r8_b7m4xgA8Z9IHteSzyUpqy5aryFj0QPr13ldPM"
+os.environ['REPLICATE_API_TOKEN'] = "r8_Dg4VLnjxGwIkHRHkorkGc5LKCGwpcBo3UCxmG"
 palm.configure(api_key="AIzaSyCCT1K99BJ1JbLwhCE7qOcQ5KOZcPJ9ZZ4")
 model = {
     "model": "models/chat-bison-001",
